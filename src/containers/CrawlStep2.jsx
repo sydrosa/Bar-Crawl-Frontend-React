@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchFriends from '../components/SearchFriends'
-import { Button, Checkbox, Form } from 'semantic-ui-react';
+import { Form } from 'semantic-ui-react';
 
 const CrawlStep2 = (props) => {
     if (props.currentStep === 1) {

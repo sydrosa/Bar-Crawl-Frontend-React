@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Checkbox, Form } from 'semantic-ui-react';
+import { Form } from 'semantic-ui-react';
 
 const CrawlStep1 = (props) => {
 

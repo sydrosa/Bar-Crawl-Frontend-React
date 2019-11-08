@@ -138,7 +138,7 @@ export default class Signup extends Component {
                     <div className="text-white d-md-flex align-items-center h-100 p-5 text-center justify-content-center">
                         <div className="logoarea pt-5 pb-5">
                         <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop" style={{position: 'fixed', top: '-200px', left: '-200px', height: '125%' }}>
-                            <source src="https://player.vimeo.com/external/327335901.hd.mp4?s=db78b3776e88c0982877eada43b03001c0896b61&profile_id=175&oauth2_token_id=57447761" type="video/mp4" />
+                            <source src="https://i.vimeocdn.com/video/758908248.webp?mw=1000&mh=562" type="video/mp4" />
                         </video>
                         </div>
                     </div>

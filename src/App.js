@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './components/Home'
 import Nav from './components/Nav'
 import Signup from './components/Signup'
+import Settings from './components/Settings'
 
 
 
@@ -20,6 +21,10 @@ function App() {
         <Route path="/crawls">
           <Nav />
           <Home />
+        </Route>
+        <Route path="/settings">
+          <Nav />
+          <Settings />
         </Route>
       </Switch>
     </Router>
