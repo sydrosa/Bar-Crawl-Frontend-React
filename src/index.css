@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.navbar {
+  display: block!important;
+}
+
+.jumbotron {
+  padding: 2rem 1rem!important;
+  margin-bottom: 2rem!important;
+  background-color: #5E6472!important;
+  font-weight: '600'
+}
+
+.h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #FAF3DD
+}
+
+.crawlRow {
+  display: flex;
+  flex-wrap: inherit;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+@media (min-width: 768px) {
+  .h-md-100 { height: 100vh; }
+}
+.btn-round { border-radius: 30px; }
+.bg-indigo { background: black; }
+.text-cyan { color: #35bdff; }
+
+.LoginForm {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
